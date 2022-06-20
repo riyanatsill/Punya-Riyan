@@ -99,10 +99,6 @@ footer {
     padding: 10px;
 }
 
-.title span {
-    font-style: italic;
-}
-
 .judul-produk {
     font-family: 'Fugaz One', cursive;
     color: white;
@@ -136,14 +132,4 @@ footer {
     border: 1px;
     box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px 10px 10px 10px;
-}
-
-.border-pilihan2 {
-    border: 1px;
-    box-shadow: 0 10px 18px 0 white;
-    border-radius: 10px 10px 10px 10px;
-}
-
-.padding-pilihan {
-    margin: 5%;
 }
