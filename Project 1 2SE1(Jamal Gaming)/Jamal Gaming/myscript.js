@@ -402,18 +402,7 @@ function sbmt() {
     console.log(tet)
     try {
         if (uname.length && userid.length >= 4) {
-            var pilihan = document.getElementsByClassName("border-pilihan")
-            for (i = 0; i < 8; i++) {
-                if (pilihan[i].style.backgroundColor == "rgb(139, 192, 253)") {
-                    var pilihan2 = document.getElementsByClassName("wkwk");
-                    for (x = 0; x <= pilihan2.length; x++) {
-                        if (pilihan2[x].style.backgroundColor == "rgb(139, 192, 253)") {
-                            location.assign("success.html");
-                        }
-                    }
-                }
-            }
-            alert("Please Insert Your Data Correctly");
+            choose();
         } else {
             alert("Please Insert Your Data Correctly");
         }
@@ -421,4 +410,25 @@ function sbmt() {
     } catch (error) {
         console.error(error);
     }
+}
+
+function choose() {
+    var pilihan = document.getElementsByClassName("border-pilihan")
+    for (i = 0; i < 8; i++) {
+        if (pilihan[i].style.backgroundColor == "rgb(139, 192, 253)") {
+            Payment();
+        }
+    }
+    alert("Choose Your Item");
+}
+
+function Payment() {
+    var pilihan2 = document.getElementsByClassName("wkwk");
+    for (x = 0; x < pilihan2.length; x++) {
+        if (pilihan2[x].style.backgroundColor == "rgb(139, 192, 253)") {
+            location.assign("success.html");
+            console.log(pilihan[x]);
+        }
+    }
+    alert("Choose Your Payment")
 }
