@@ -338,7 +338,7 @@ function sbmt() {
     let tet = document.getElementsByClassName("border-pilihan");
     console.log(tet)
     try {
-        if (uname.length >= 2 && userid.length >= 6) {
+        if (uname.length >= 2 && userid.length >= 6 && userid > 0) {
             choose();
         } else {
             alert("Please Insert Your Data Correctly");
