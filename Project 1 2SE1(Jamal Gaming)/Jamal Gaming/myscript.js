@@ -48,14 +48,7 @@ function clkvp() {
 
     if (bg == "rgb(139, 192, 253)") {
         document.getElementById("vpx").style.backgroundColor = "#008080";
-        document.getElementById("vps").style.backgroundColor = "#008080";
-        document.getElementById("vpy").style.backgroundColor = "#008080";
-        document.getElementById("vpz").style.backgroundColor = "#008080";
 
-        document.getElementById("vpz1").style.backgroundColor = "#008080";
-        document.getElementById("vpy1").style.backgroundColor = "#008080";
-        document.getElementById("vps1").style.backgroundColor = "#008080";
-        document.getElementById("vpx1").style.backgroundColor = "#008080";
     }
 }
 
@@ -90,15 +83,8 @@ function clkvp1() {
     document.getElementById("vps1").style.backgroundColor = "#008080";
 
     if (bg == "rgb(139, 192, 253)") {
-        document.getElementById("vpz").style.backgroundColor = "#008080";
         document.getElementById("vps").style.backgroundColor = "#008080";
-        document.getElementById("vpx").style.backgroundColor = "#008080";
-        document.getElementById("vpy").style.backgroundColor = "#008080";
 
-        document.getElementById("vpz1").style.backgroundColor = "#008080";
-        document.getElementById("vpy1").style.backgroundColor = "#008080";
-        document.getElementById("vpx1").style.backgroundColor = "#008080";
-        document.getElementById("vps1").style.backgroundColor = "#008080";
     }
 
 }
@@ -134,15 +120,8 @@ function clkvp2() {
     document.getElementById("vpy1").style.backgroundColor = "#008080";
 
     if (bg == "rgb(139, 192, 253)") {
-        document.getElementById("vpz").style.backgroundColor = "#008080";
-        document.getElementById("vpx").style.backgroundColor = "#008080";
-        document.getElementById("vps").style.backgroundColor = "#008080";
         document.getElementById("vpy").style.backgroundColor = "#008080";
 
-        document.getElementById("vpz1").style.backgroundColor = "#008080";
-        document.getElementById("vpx1").style.backgroundColor = "#008080";
-        document.getElementById("vps1").style.backgroundColor = "#008080";
-        document.getElementById("vpy1").style.backgroundColor = "#008080";
     }
 }
 
@@ -178,14 +157,6 @@ function clkvp3() {
 
     if (bg == "rgb(139, 192, 253)") {
         document.getElementById("vpz").style.backgroundColor = "#008080";
-        document.getElementById("vpx").style.backgroundColor = "#008080";
-        document.getElementById("vps").style.backgroundColor = "#008080";
-        document.getElementById("vpy").style.backgroundColor = "#008080";
-
-        document.getElementById("vpy1").style.backgroundColor = "#008080";
-        document.getElementById("vpx1").style.backgroundColor = "#008080";
-        document.getElementById("vps1").style.backgroundColor = "#008080";
-        document.getElementById("vpz1").style.backgroundColor = "#008080";
     }
 }
 
@@ -220,15 +191,7 @@ function clkvp4() {
     document.getElementById("vpz1").style.backgroundColor = "#008080";
 
     if (bg == "rgb(139, 192, 253)") {
-        document.getElementById("vpz").style.backgroundColor = "#008080";
-        document.getElementById("vpx").style.backgroundColor = "#008080";
-        document.getElementById("vps").style.backgroundColor = "#008080";
-        document.getElementById("vpy").style.backgroundColor = "#008080";
-
-        document.getElementById("vpy1").style.backgroundColor = "#008080";
         document.getElementById("vpx1").style.backgroundColor = "#008080";
-        document.getElementById("vps1").style.backgroundColor = "#008080";
-        document.getElementById("vpz1").style.backgroundColor = "#008080";
     }
 }
 
@@ -263,15 +226,7 @@ function clkvp5() {
     document.getElementById("vpz1").style.backgroundColor = "#008080";
 
     if (bg == "rgb(139, 192, 253)") {
-        document.getElementById("vpz").style.backgroundColor = "#008080";
-        document.getElementById("vpx").style.backgroundColor = "#008080";
-        document.getElementById("vps").style.backgroundColor = "#008080";
-        document.getElementById("vpy").style.backgroundColor = "#008080";
-
-        document.getElementById("vpy1").style.backgroundColor = "#008080";
-        document.getElementById("vpx1").style.backgroundColor = "#008080";
         document.getElementById("vps1").style.backgroundColor = "#008080";
-        document.getElementById("vpz1").style.backgroundColor = "#008080";
     }
 }
 
@@ -306,15 +261,7 @@ function clkvp6() {
     document.getElementById("vpz1").style.backgroundColor = "#008080";
 
     if (bg == "rgb(139, 192, 253)") {
-        document.getElementById("vpz").style.backgroundColor = "#008080";
-        document.getElementById("vpx").style.backgroundColor = "#008080";
-        document.getElementById("vps").style.backgroundColor = "#008080";
-        document.getElementById("vpy").style.backgroundColor = "#008080";
-
         document.getElementById("vpy1").style.backgroundColor = "#008080";
-        document.getElementById("vpx1").style.backgroundColor = "#008080";
-        document.getElementById("vps1").style.backgroundColor = "#008080";
-        document.getElementById("vpz1").style.backgroundColor = "#008080";
     }
 }
 
@@ -349,14 +296,6 @@ function clkvp7() {
     document.getElementById("vpz").style.backgroundColor = "#008080";
 
     if (bg == "rgb(139, 192, 253)") {
-        document.getElementById("vpz").style.backgroundColor = "#008080";
-        document.getElementById("vpx").style.backgroundColor = "#008080";
-        document.getElementById("vps").style.backgroundColor = "#008080";
-        document.getElementById("vpy").style.backgroundColor = "#008080";
-
-        document.getElementById("vpy1").style.backgroundColor = "#008080";
-        document.getElementById("vpx1").style.backgroundColor = "#008080";
-        document.getElementById("vps1").style.backgroundColor = "#008080";
         document.getElementById("vpz1").style.backgroundColor = "#008080";
     }
 }
@@ -372,7 +311,6 @@ function bca() {
     document.getElementById("gopayy").style.backgroundColor = "aliceblue"
     if (bg == "rgb(139, 192, 253)") {
         document.getElementById("bcaa").style.backgroundColor = "aliceblue";
-        document.getElementById("gopayy").style.backgroundColor = "aliceblue";
     }
 }
 
@@ -386,7 +324,6 @@ function gopay() {
     document.getElementById("gopayy").style.backgroundColor = "rgb(139, 192, 253)";
     document.getElementById("bcaa").style.backgroundColor = "aliceblue";
     if (bg == "rgb(139, 192, 253)") {
-        document.getElementById("bcaa").style.backgroundColor = "aliceblue";
         document.getElementById("gopayy").style.backgroundColor = "aliceblue";
     }
 }
@@ -401,7 +338,7 @@ function sbmt() {
     let tet = document.getElementsByClassName("border-pilihan");
     console.log(tet)
     try {
-        if (uname.length && userid.length >= 4) {
+        if (uname.length && userid.length >= 2) {
             choose();
         } else {
             alert("Please Insert Your Data Correctly");
@@ -414,7 +351,7 @@ function sbmt() {
 
 function choose() {
     var pilihan = document.getElementsByClassName("border-pilihan")
-    for (i = 0; i < 8; i++) {
+    for (i = 0; i < pilihan.length; i++) {
         if (pilihan[i].style.backgroundColor == "rgb(139, 192, 253)") {
             Payment();
         }

@@ -23,6 +23,19 @@ header {
     box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+footer {
+    display: grid;
+    justify-content: center;
+    background-color: #1C3334;
+    margin-top: 10%;
+    padding: 2%;
+    box-shadow: 0 10px 18px 18px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .title {
     color: white;
     font-size: 15pt;
