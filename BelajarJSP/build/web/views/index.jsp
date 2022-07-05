@@ -78,8 +78,14 @@
                                     <td><%= rs.getString("product_type")%></td>
                                     <td><%= rs.getString("stock")%></td>
                                     <td>
-                                        <a href="#" class="btn btn-sm btn-info">Edit</a>
-                                        <a href="#" class="btn btn-sm btn-danger">Delete</a>
+                                        <form action="delete?id=<%= rs.getString("id") %>" method="POST"
+                                              onsubmit="return confirm('Are you sure want to delete the data?')"
+                                        >
+                                            <a href="edit?id=<%= rs.getString("id") %>" class="btn btn-sm btn-info">Edit</a>
+                                            <input type="hidden" name="id" value="<%= rs.getString("id")%>" />
+                                            <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                                        </form>
+                                        
                                     </td>
                                 </tr>
                                 <% }%>
